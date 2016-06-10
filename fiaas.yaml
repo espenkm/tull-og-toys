@@ -1,4 +1,4 @@
 replicas: 2 
 services: 
   - type: http
-    exposed_port: 80
+    exposed_port: 8080
