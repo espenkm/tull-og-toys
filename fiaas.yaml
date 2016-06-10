@@ -1,2 +1,4 @@
-ervices:
-  - exposed_port: 80
+replicas: 2 
+services: 
+  - type: http
+    exposed_port: 80
