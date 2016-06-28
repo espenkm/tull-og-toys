@@ -1,4 +1,5 @@
 ---
+replicas: 2 
 admin_access: read-write
 resources:
   requests:
