@@ -1,0 +1,9 @@
+replicas: 4
+services:
+ - type: http
+   service_port: 80
+   exposed_port: 8080
+   readiness: /internal-backstage/health/services
+   liveness: /internal-backstage/health/services
+   ingress: / 
+   probe_delay: 60
